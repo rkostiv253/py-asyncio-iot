@@ -31,10 +31,10 @@ async def main() -> None:
             MessageType.PLAY_SONG,
             "Rick Astley - Never Gonna Give You Up"
         ),
+        Message(toilet_id, MessageType.FLUSH)
     ]
 
     sequence_action_program = [
-        Message(toilet_id, MessageType.FLUSH),
         Message(toilet_id, MessageType.CLEAN),
     ]
 
